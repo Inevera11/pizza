@@ -1,0 +1,128 @@
+body {
+  background: repeating-radial-gradient(#e27fbb9e, #0000001f 2px);
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-variant: all-petite-caps;
+
+  color: #ca565f;
+  font-family: cursive;
+}
+h2 {
+  text-align: center;
+  color: #6b3642;
+  font-size: 50px;
+  font-variant-caps: all-petite-caps;
+  font-family: monospace;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+li {
+  margin: auto;
+  text-align: center;
+  flex: 1;
+}
+img {
+  display: block;
+  margin: 30px auto;
+  max-width: 80%;
+  width: 200px;
+  margin-top: 5px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 16px 10px;
+  border-radius: 50%;
+  border-color: #d83a56;
+  background-color: #eaae65;
+  color: #c71f1f;
+  font-weight: 700;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  box-shadow: 6px -3px 17px 7px grey;
+  transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+div {
+  font-family: -webkit-pictograph;
+  color: transparent;
+}
+button:hover {
+  background-color: #cc3737c7;
+  color: #ecba7c;
+  box-shadow: -1px -1px 12px 14px #f3c583;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .greek .greek_pizza {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+
+  .greek:hover .greek_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (hover: hover) {
+  .carbonara .carbonara_pizza {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+
+  .carbonara:hover .carbonara_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (hover: hover) {
+  .cheddar .cheddar_pizza {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+
+  .cheddar:hover .cheddar_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (hover: hover) {
+  .kebab .kebab_pizza {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+
+  .kebab:hover .kebab_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (hover: hover) {
+  .village .village_pizza {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+
+  .village:hover .village_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (hover: hover) {
+  .tex .tex_pizza {
+    transform: translateY(100px);
+    transition: 200ms;
+  }
+
+  .tex:hover .tex_pizza {
+    transform: translateY(0);
+    color: rgb(0, 0, 0);
+  }
+}
